@@ -113,6 +113,7 @@ void makeDateName_int(t_makeDateName *x, long n)
         strncat(track_name, ".wav", 255);
         //post("%s", track_name);
         strncat(p, track_name, 255);
+        //post("%s", path);
         o_name[nth-1] = gensym(p);
         track_name[0] = '\0';
         p[0] = '\0';
